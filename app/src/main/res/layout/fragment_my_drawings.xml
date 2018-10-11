@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avior.idan.drawsomething.MyDrawingsFragment"
+    android:background="@drawable/main_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/title_my_drawings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+
+    <GridView
+        android:id="@+id/drawingsGridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:gravity="center"></GridView>
+
+
+</LinearLayout>

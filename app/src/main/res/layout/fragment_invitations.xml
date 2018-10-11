@@ -1,0 +1,35 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avior.idan.drawsomething.InvitationsFragment"
+    android:orientation="vertical"
+    android:background="@drawable/brushes_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_invitations_fragment"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/noNewInvitationsTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_no_invitations"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/invitationsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

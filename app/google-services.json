@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "740785742208",
+    "firebase_url": "https://drawsomething-1e902.firebaseio.com",
+    "project_id": "drawsomething-1e902",
+    "storage_bucket": "drawsomething-1e902.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740785742208:android:3879e86a3c28ff1f",
+        "android_client_info": {
+          "package_name": "com.avior.idan.drawsomething"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "740785742208-m8f4o883k48f6ffrj7aq5sp97uop83b8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avior.idan.drawsomething",
+            "certificate_hash": "a970f150c620e395b3de5cb6045dee16bca683ca"
+          }
+        },
+        {
+          "client_id": "740785742208-i9f3na40k1tr2qg83i1clqgpkr8qpei5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBURuvLqWTSfSyR-v6BkbcmOe_b-6MR_ac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "740785742208-i9f3na40k1tr2qg83i1clqgpkr8qpei5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

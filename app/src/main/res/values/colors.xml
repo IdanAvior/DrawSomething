@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f6df9d</color>
+    <color name="colorPrimaryDark">#514b39</color>
+    <color name="colorAccent">#40fffe</color>
+    <color name="colorViewedDrawingListItem">#F7CF7E</color>
+    <color name="colorUnviewedDrawingListItem">#EDBA52</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

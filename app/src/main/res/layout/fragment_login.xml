@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/brushes_background"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="login"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="casual"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/confirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password Again"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Login"
+        android:textColor="#f0f0f0"
+        android:fontFamily="casual"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/loginTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:tag="register"
+        android:text="Don't have an account? register!"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/registerTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:tag="login"
+        android:text="Already have an account? sign in!"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/signOutTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:tag="signOut"
+        android:text="Sign out"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/newInvitationsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:visibility="gone"/>
+
+</LinearLayout>

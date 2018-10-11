@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">DrawSomething</string>
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="fill">Fill</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+    <string name="title_activity_main">DrawSomething</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Draw</string>
+    <string name="title_draw_screen">Draw something!</string>
+    <string name="title_my_drawings">My Drawings</string>
+    <string name="title_notifications">Invitations</string>
+    <string name="text_no_invitations">No invitations at the moment!</string>
+    <string name="guess_drawing_button_text">Submit</string>
+    <string name="guess_drawing_return_button_text">Return</string>
+    <string name="title_select_user">Select user to challenge:</string>
+    <string name="title_invitations_fragment">My Invitations</string>
+    <string name="title_all_drawings">All Drawings</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="title_drawing_help">Drawing Help</string>
+    <string name="title_help_button">Got it !</string>
+    <string name="drawing_help_new_button">Start a new drawing</string>
+    <string name="drawing_help_brush">Select brush size (also activates brush)</string>
+    <string name="drawing_help_eraser">Select eraser size (also activates eraser)</string>
+    <string name="drawing_help_bucket">Fill canvas with selected color</string>
+    <string name="drawing_help_save">Save and upload drawing</string>
+    <string name="title_guessing_help">Guessing Help</string>
+    <string name="drawing_help_text">Before saving and uploading a drawing, you must give it a valid description!</string>
+    <string name="guessing_help_text_1">You have 3 attempts to try and guess the drawing. If you fail, the answer will be revealed</string>
+    <string name="guessing_help_text_2">The sequence of underscores above the drawing represents the number of words and the number of characters in each word</string>
+    <string name="guessing_help_text_3">Note that the answer is not case-sensitive!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avior.idan.drawsomething.AllDrawingsFragment"
+    android:orientation="vertical"
+    android:background="@drawable/brushes_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_all_drawings"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:fontFamily="casual"/>
+
+    <ListView
+        android:id="@+id/allDrawingsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

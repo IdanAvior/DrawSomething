@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avior.idan.drawsomething.SelectUserFragment"
+    android:orientation="vertical"
+    android:background="@drawable/main_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_select_user"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="casual"/>
+
+    <ListView
+        android:id="@+id/selectUserListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_cancel"
+        android:textAlignment="center"
+        android:fontFamily="casual"
+        android:textSize="20sp"/>
+
+</LinearLayout>

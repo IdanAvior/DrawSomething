@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avior.idan.drawsomething.DrawingHelpFragment"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_drawing_help"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:paddingBottom="20dp"
+        android:fontFamily="casual"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/new_button"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drawing_help_new_button"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/brush_button"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drawing_help_brush"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/erase_button"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drawing_help_eraser"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paint_bucket"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drawing_help_bucket"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save_button"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drawing_help_save"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:fontFamily="casual"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drawing_help_text"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/drawingHelpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_help_button"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avior.idan.drawsomething.GuessDrawingFragment"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/firstWrongAnswerImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/red_x"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/secondtWrongAnswerImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/red_x"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/thirdWrongAnswerImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/red_x"
+            android:visibility="invisible"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/guessDrawingClue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"/>
+        <ImageView
+            android:id="@+id/guessingHelpImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_help_outline"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/guessDrawingImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+    <EditText
+        android:id="@+id/guessDrawingEditText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/guessDrawingSubmitButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/guess_drawing_button_text"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            android:fontFamily="casual"/>
+        <Button
+            android:id="@+id/guessDrawingReturnButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/guess_drawing_return_button_text"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:background="@color/colorAccent"
+            android:fontFamily="casual"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
